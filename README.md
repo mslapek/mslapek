@@ -1,10 +1,6 @@
-# Software Developer ✨
+# Software Developer
 
-[![Python](img/python.svg)](#)
-&nbsp;&nbsp;
-[![C++](img/cpp.svg)](#)
-&nbsp;&nbsp;
-[![Java](img/java.svg)](#)
+[![web](img/web.svg)](https://mslapek.github.io/)
 &nbsp;&nbsp;
 [![LinkedIn: mslapek](img/linkedin.svg)](https://www.linkedin.com/in/mslapek/)
 &nbsp;&nbsp;
@@ -12,27 +8,76 @@
 
 <br/>
 
-## [DataChat](https://github.com/mslapek/datachat) – Fullstack Pet Project ☕️
+Hello! I'm Michał.
 
-**Backend:** Java, Spring WebFlux
-<br/>
-**Frontend:** TypeScript, React, Redux
+Below is a **manually crafted** listing of my coolest **contributions** and **personal projects**.
 
-[<img src="img/datachat-banner.svg" alt="DataChat logo" width="400"/>](https://github.com/mslapek/datachat)
-
-[DataChat](https://github.com/mslapek/datachat) – Quick data exploration as a chat!
-
-* DataChat connects to any PostgreSQL database.
-* It allows you to explore your data in a form of chat.
-* **Easy setup in 5 minutes** ⏰ – with Docker Compose!
-
-See [DataChat GitHub repo there](https://github.com/mslapek/datachat)!
+Read my story on the personal page: [mslapek.github.io](https://mslapek.github.io/)
 
 <br/><br/>
 
+## Open-source contributions 🗂️
+
+<br/>
+
+### Apache Arrow DataFusion &nbsp;//&nbsp; Rust 🦀
+
+*Modular SQL Query Engine*
+
+&nbsp;[`#5623`](https://github.com/apache/arrow-datafusion/pull/5623) Added cycle detection to the logical optimizer loop with extensive unit testing
+
+&nbsp;[`#5734`](https://github.com/apache/arrow-datafusion/pull/5734) Fixed an SQL typing bug with case expression, verified with PostgreSQL integration tests
+
+&nbsp;[`#5521`](https://github.com/apache/arrow-datafusion/pull/5521) Removed lots of boilerplate required to implement custom nodes of logical plan with nice inheritance of the hashing/equality implementation
+
+<br/>
+
+[All PRs](https://github.com/apache/arrow-datafusion/pulls?q=author%3Amslapek) in Apache Arrow DataFusion
+
+<br/><br/>
+
+### Polars &nbsp;//&nbsp; Rust 🦀
+
+*DataFrames for Python with lazy data loading*
+
+&nbsp;[`#7143`](https://github.com/pola-rs/polars/pull/7143) Added glob pattern support to the JSON read routine, available in Rust and Python API
+
+&nbsp;[`#7250`](https://github.com/pola-rs/polars/pull/7250) Replaced unsafe code related to the schema of CSV with safe alternative
+
+<br/>
+
+[All PRs](https://github.com/pola-rs/polars/pulls?q=author%3Amslapek) in Polars
+
+<br/><br/>
+
+### Helm &nbsp;//&nbsp; Go 🐷
+
+*The Kubernetes Package Manager*
+
+[<code>#12088</code>](https://github.com/helm/helm/pull/12088) Fix leaking goroutines in Install
+
+<br/><br/>
+
+### TRAC &nbsp;//&nbsp; Java ☕️
+
+*Metadata DB about financial models*
+
+&nbsp;&nbsp;[<code>#208</code>](https://github.com/finos/tracdap/pull/208) Dockerized the software with dockerfiles and docker-compose
+
+&nbsp;&nbsp;[<code>#249</code>](https://github.com/finos/tracdap/pull/249) Separated gRPC calling code from the logging logic with the interceptors API
+
+&nbsp;&nbsp;[<code>#212</code>](https://github.com/finos/tracdap/pull/212) Improved performance of the gRPC API with call batching
+
+<br/>
+
+[All PRs](https://github.com/finos/tracdap/pulls?q=author%3Amslapek) in TRAC
+
+<br/><br/>
+
+
 ## Cloud Certs ☁️
 
-<small>**Click the badge** to verify a cert.</small>
+<small>**Click a badge** to verify it.</small>
 
 **Kubernetes (The Linux Foundation)**
 
@@ -106,7 +151,9 @@ See [DataChat GitHub repo there](https://github.com/mslapek/datachat)!
 
 <br/><br/>
 
-## Python Project 🐍
+## Personal projects 🗂️
+
+### letstune &nbsp;//&nbsp; Python 🐍
 
 [<img src="https://raw.githubusercontent.com/mslapek/letstune/main/img/logo.svg" alt="letstune logo" width="200"/>](https://github.com/mslapek/letstune)
 
@@ -118,52 +165,21 @@ GitHub Actions on CI.
 
 <br/><br/>
 
-## Open-source contributions 🗂️
+### kubedirlint &nbsp;//&nbsp; Go 🐷
 
-<br/>
-
-**TRAC &nbsp;•&nbsp; Java &nbsp;•&nbsp; Metadata DB about financial models**
-
-[<code>&nbsp;#249</code>](https://github.com/finos/tracdap/pull/249) Separated gRPC calling code from the logging logic with the interceptors API
-
-[<code>&nbsp;#212</code>](https://github.com/finos/tracdap/pull/212) Improved performance of the gRPC API with call batching
-
-<br/>
-
-[All PRs](https://github.com/finos/tracdap/pulls?q=author%3Amslapek) in TRAC
+[kubedirlint](https://github.com/mslapek/kubedirlint) is a simple Go program that checks the placement of
+Kubernetes YAML files in your project.
 
 <br/><br/>
 
-**Apache Arrow DataFusion &nbsp;•&nbsp; Rust &nbsp;•&nbsp; Modular SQL Query Engine**
+### DataChat &nbsp;//&nbsp; Java + TypeScript ☕️
 
-[`#5623`](https://github.com/apache/arrow-datafusion/pull/5623) Added cycle detection to the logical optimizer loop with extensive unit testing
+[<img src="img/datachat-banner.svg" alt="DataChat logo" width="400"/>](https://github.com/mslapek/datachat)
 
-[`#5734`](https://github.com/apache/arrow-datafusion/pull/5734) Fixed an SQL typing bug with case expression, verified with PostgreSQL integration tests
+[DataChat](https://github.com/mslapek/datachat) – Quick data exploration as a chat!
 
-[`#5521`](https://github.com/apache/arrow-datafusion/pull/5521) Removed lots of boilerplate required to implement custom nodes of logical plan with nice inheritance of the hashing/equality implementation
+* DataChat connects to any PostgreSQL database.
+* It allows you to explore your data in a form of chat.
+* **Easy setup in 5 minutes** ⏰ – with Docker Compose!
 
-<br/>
-
-[All PRs](https://github.com/apache/arrow-datafusion/pulls?q=author%3Amslapek) in Apache Arrow DataFusion
-
-<br/><br/>
-
-**Polars &nbsp;•&nbsp; Rust &nbsp;•&nbsp; DataFrames for Python with lazy data loading**
-
-[`#7143`](https://github.com/pola-rs/polars/pull/7143) Added glob pattern support to the JSON read routine, available in Rust and Python API
-
-[`#7250`](https://github.com/pola-rs/polars/pull/7250) Replaced unsafe code related to the schema of CSV with safe alternative
-
-<br/>
-
-[All PRs](https://github.com/pola-rs/polars/pulls?q=author%3Amslapek) in Polars
-
-<br/><br/>
-
-## Cool Article 📰
-
-["Go vs Rust: A Sto-array of Arrays"](https://hackernoon.com/go-vs-rust-a-sto-array-of-arrays), Hackernoon, 2022
-
-<br/><br/>
-
-See [more text](more.md) for info about academic stuff.
+Uses Spring WebFlux + React + Redux.
