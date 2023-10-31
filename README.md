@@ -1,4 +1,4 @@
-# Software Developer
+# Software Engineer
 
 [![web](img/web.svg)](https://mslapek.github.io/)
 &nbsp;&nbsp;
@@ -16,6 +16,7 @@ Read my story on the personal page: [mslapek.github.io](https://mslapek.github.i
 
 <br/><br/>
 
+<span id="opensource"></span>
 ## Open-source contributions 🗂️
 
 <br/>
@@ -44,6 +45,8 @@ Read my story on the personal page: [mslapek.github.io](https://mslapek.github.i
 
 &nbsp;[`#7250`](https://github.com/pola-rs/polars/pull/7250) Replaced unsafe code related to the schema of CSV with safe alternative
 
+&nbsp;[`#6937`](https://github.com/pola-rs/polars/pull/6937) Added a new trait `LazyFileListReader` (a kind of a base class) deduplicating glob logic
+
 <br/>
 
 [All PRs](https://github.com/pola-rs/polars/pulls?q=author%3Amslapek) in Polars
@@ -56,6 +59,7 @@ Read my story on the personal page: [mslapek.github.io](https://mslapek.github.i
 
 [<code>#12088</code>](https://github.com/helm/helm/pull/12088) Fix leaking goroutines in Install
 
+<span id="trac"></span>
 <br/><br/>
 
 ### TRAC &nbsp;//&nbsp; Java ☕️
@@ -151,6 +155,7 @@ Read my story on the personal page: [mslapek.github.io](https://mslapek.github.i
 
 <br/><br/>
 
+<span id="projects"></span>
 ## Personal projects 🗂️
 
 ### letstune &nbsp;//&nbsp; Python 🐍
