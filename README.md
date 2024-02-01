@@ -168,6 +168,9 @@ The package sports nice architecture, static typing with mypy
 and unit tests with pytest. Linting and tests are run with
 GitHub Actions on CI.
 
+* See [the public Kaggle kernel 📝](https://www.kaggle.com/code/capslock/resnet-34-art-of-hyperparam-tuning), demonstrating the software in action.
+* [Autotune Keras example](https://github.com/mslapek/letstune/blob/main/examples/keras/advanced_mnist_epochtrainer.py), choosing automatically among the various optimizer variants.
+
 <br/><br/>
 
 ### kubedirlint &nbsp;//&nbsp; Go 🐷
