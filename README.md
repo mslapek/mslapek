@@ -1,7 +1,5 @@
 # Software Engineer
 
-[![web](img/web.svg)](https://mslapek.github.io/)
-&nbsp;&nbsp;
 [![LinkedIn: mslapek](img/linkedin.svg)](https://www.linkedin.com/in/mslapek/)
 &nbsp;&nbsp;
 [![stackoverflow](img/stackoverflow.svg)](https://stackoverflow.com/users/10075090/)
@@ -11,8 +9,6 @@
 Hello! I'm Michał.
 
 Below is a **manually crafted** listing of my coolest **contributions** and **personal projects**.
-
-Read my story on the personal page: [mslapek.github.io](https://mslapek.github.io/)
 
 <br/><br/>
 
@@ -133,7 +129,7 @@ Read my story on the personal page: [mslapek.github.io](https://mslapek.github.i
 
 **Google Cloud Platform (GCP)**
 
-<a href="https://www.credential.net/3b607626-36c0-4515-995c-3bbbd81c8035">
+<a href="https://www.credly.com/badges/880023c2-0bd2-4539-bba2-2c20a22f3b0e/public_url">
     <img
         src="certs/gcp_ace_440.png"
         width="220px"
@@ -144,7 +140,7 @@ Read my story on the personal page: [mslapek.github.io](https://mslapek.github.i
 &nbsp;
 &nbsp;
 &nbsp;
-<a href="https://www.credential.net/55d399d2-f3cf-425f-8bd1-682889f9f70e">
+<a href="https://www.credly.com/badges/6c7ee3fd-2493-4245-9cae-75ac6b335318/public_url">
     <img
         src="certs/gcp_cdl_440.png"
         width="220px"
