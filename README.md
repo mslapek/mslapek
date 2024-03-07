@@ -12,7 +12,7 @@ Hello! I'm Michał.
 
 Below is a **manually crafted** listing of my coolest **contributions** and **personal projects**.
 
-Read my story on the personal page: [mslapek.github.io](https://mslapek.github.io/)
+My resume / CV: [mslapek_cv.pdf](mslapek_cv.pdf)
 
 <br/><br/>
 
